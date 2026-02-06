@@ -6,7 +6,7 @@ if user_steps >= 10000:
 user_time = float(input("How many hours did you code?: "))
 if user_time >= 1:
     user_score += 4
-user_train = input("Did you train today: (Y/N): ")
+user_train = input("Did you train today: (Yes/No): ")
 if user_train == "Y":
     user_score += 3
     print(user_score)
